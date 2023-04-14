@@ -1,0 +1,322 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../resources/pexels-daniel-putzer-633409.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    backdrop-filter: blur(5px);
+}
+
+.nav-bar h1{
+    color: white;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 20px;
+}
+
+.nav-bar ul li{
+    display: inline-block;
+    padding: 20px 20px;
+    position: relative;
+}
+
+.nav-bar ul li a{
+    color: white;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.nav-bar ul li a:hover{
+    background-color: #f3f3f3;
+    color: black;
+}
+
+.nav-bar ul li ul{
+    position: absolute;
+    backdrop-filter: blur(5px);
+}
+
+.nav-bar ul li ul li{
+    width: 280px;
+    padding: 15px 10px;
+    padding: 10px;
+    display: none;
+}
+
+.nav-bar ul li ul a:hover{
+   background-color: #f3f3f3;
+   color: black;
+}
+
+.nav-bar ul li:hover ul li{
+    display: block;
+}
+
+#ul2 li{
+   width: 120px;
+}
+
+.con1{
+   color: white;
+   text-transform: capitalize;
+   width: 100%;
+   position: absolute;
+   top: 40%;
+   transform: translateY(-50%);
+   text-align: center;
+   font-size: 30px;
+}
+
+#Portfolio{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+#Contact_Us{
+    height: 450px;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#our_team{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 20px;
+}
+
+#ot{
+    text-decoration: underline;
+    font-size: 45px;
+    transition: 0.5s;
+}
+
+#ot:hover{
+    font-size: 48px;
+    cursor: pointer;
+}
+
+.inc1, .inc2{
+    padding-top: 60px;
+}
+
+.inc1{ 
+    float: right;
+}
+
+.inc1 h1{
+    float: right;
+    text-transform: uppercase;
+}
+
+.inc1 ul li{
+     padding: 10px 0;
+     text-align: right;
+     padding-top: 60px;
+     text-decoration: underline ;
+}
+
+.inc2{
+    padding-left: 20px;
+    flex-flow: row wrap;
+    flex-wrap: wrap;
+}
+
+#img1, #img2, #img3, #img4{
+    height: 200px;
+    width: 300px;
+}
+
+.flex{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+}
+
+.p1{
+    height: 500px;
+    width: 300px;
+    background-image: linear-gradient(rgba(0,0,0,0.50), rgba(0,0,0,0.50)),url(../resources/p1.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+.p2{
+    height: 500px;
+    width: 300px;
+    background-image: linear-gradient(rgba(0,0,0,0.50), rgba(0,0,0,0.50)),url(../resources/p2.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    transition: 0.5s
+}
+
+.p3{
+    height: 500px;
+    width: 300px;
+    background-image: linear-gradient(rgba(0,0,0,0.50), rgba(0,0,0,0.50)),url(../resources/p3.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    transition: 0.5s
+}
+
+.flex h1{
+    padding-top: 400px;
+    text-transform: capitalize;
+}
+
+.p1:hover, .p2:hover, .p3:hover{
+    cursor: pointer;
+    height: 520px;
+    width: 320px;
+}
+
+.fcon{
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+
+}
+
+.con{
+    padding-top: 10px;
+    height: 300px;
+}
+
+#tb1{
+    height: 230px;
+    background: transparent;
+    float: left;
+    padding-top: 10px;
+    border-color: rgb(168, 71, 6);
+    border-radius: 20px;
+    width: 300px;
+}
+
+#bt1{
+    background: transparent;
+    color: white;
+    border-radius: 20px;
+    border-color: white;
+    width: 150px;
+    margin-top: 20px;
+    height: 60px;
+    transition: 0.5s;
+}
+
+#bt1:hover{
+   cursor: pointer;
+   background-color: white;
+   width: 180px;
+   height: 70px;
+}
+
+#bt1 a{
+    color: white;
+    font-size: 15px;
+}
+
+#bt1:hover a{
+    color: black;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
